@@ -11,10 +11,20 @@ body {
 	
 }
 #bg  {
-	width: 1200px;
+	width: 1000px;
 	height: auto;
 	margin-left: 10%;
+	float: left;
 	
+}
+#info {
+	background-color: grey;
+	width: 650px;
+	height: 200px;
+	float: right;
+	margin: 10px;
+
+
 }
 #otsikko{
 	text-align: left;
@@ -23,7 +33,7 @@ body {
 }
 #lista {
 	vertical-align: middle;
-	width: 800px;
+	width: 700px;
 	height: 60px;
 	float: left;
 }
@@ -43,6 +53,16 @@ body {
 	color: #FFFFFF;
 	float: left;
 	text-align: center;
+	
+}
+.teksti-tyyli-info {
+	font-size: 20px;
+	width: 523px;
+	height: 21px;
+	color: #FFFFFF;
+	float: left;
+	text-align: left;
+	margin-left: 25px;
 	
 }
 .tausta-tyyli {
@@ -72,3 +92,24 @@ body {
 	height: 65px;
 	text-shadow:0px 1px 0px #2f6627;
 }
+#hide {
+	background-color:#44c767;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	width: 70px;
+	height: 70px;
+	text-shadow:0px 1px 0px #2f6627;
+	float: right;
+}
+#show {
+	background-color:#44c767;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	width: 70px;
+	height: 70px;
+	text-shadow:0px 1px 0px #2f6627;
+	float: right;
+}
+

@@ -1,6 +1,18 @@
 <!doctype html>
 <html>
 <head>
+	<script>
+	function ShowFunction() {
+		var Show = document.getElementById("info");
+		Show.style.display = "block";
+	}
+
+	function HideFunction() {
+		var Hide = document.getElementById("info");
+		Hide.style.display = "none";
+	}
+	</script>
+	<script src="show.js"></script>
 	<link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 <title>To Do List Ville Vierros</title>
@@ -16,7 +28,19 @@
 		</div>
 	</div>
 </div>
+<div id="info-button">
+	<button id="show" onClick="ShowFunction()">Näytä info</button>
+</div>
+<div id="info" style="display:none">
+<p class="teksti-tyyli-info">
+1. Tekstikenttään voi kirjoittaa enintään 40 merkkiä.<br>
+2. Tekstikenttä ei voi olla tyhjä.<br>
+3. Tehtävän, joka on tehty voi yliviivata klikkaamalla kerran tekstiä.<br> 
+4. Tehtävän, josta haluaa poistaa yliviivauksen voi poistaa tuplaklikkaamalla tekstiä.<br>
+</p>
+<button id="hide" onClick="HideFunction()">Piilota info</button>
+</div>
 <script src="jstodolist.js"></script>
-	
+
 </body>
 </html>
