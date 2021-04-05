@@ -7,9 +7,9 @@ nappula.addEventListener('click', function(){//tapahtuma kuuntelija, joka toimii
 {
     alert("Tekstikenttä on tyhjä");
 }else 
-	if(tekstiKentta.value.length >= 25)//tarkistaa onko tekstikentässä yli if ehdon antamaa merkkimäärää.
+	if(tekstiKentta.value.length > 40)//tarkistaa onko tekstikentässä yli if ehdon antamaa merkkimäärää.
 {
-	alert("Tekstikenttässä on yli 25 merkkiä");
+	alert("Tekstikenttässä on yli 40 merkkiä");
 }else{
 	var tausta = document.createElement('div');//luodaan tausta tekstille luo uuden <div></div> elementin.
 	var teksti = document.createElement('p');//luodaan Paragraph elementti, jonne myöhemmin asetetaan teksti tekstikentästä.<p></p>
