@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.lista {
+	width: 500px;
+	
+}
+
+body {
+	background-image: linear-gradient(100deg, #524BFF, #52ACFF);
+	color: #FFFFFF;
+	
+}
+#bg  {
+	width: 1200px;
+	height: auto;
+	margin-left: 10%;
+	
+}
+#otsikko{
+	text-align: left;
+	margin-left: 20%;
+	
+}
+#lista {
+	vertical-align: middle;
+	width: 800px;
+	height: 60px;
+	float: left;
+}
+
+#tekstikentta {
+	width: 523px;
+	height: 60px;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.teksti-tyyli {
+	cursor: pointer;
+	font-size: 20px;
+	width: 523px;
+	height: 21px;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	
+}
+.tausta-tyyli {
+	background-image: linear-gradient(100deg, #474747, #313131);
+	width: 600px;
+	height: 60px;
+	color: #000000;
+	margin-top: 10px;
+	
+}
+.nappula-tyyli {
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	color: red;
+	background-image: linear-gradient(100deg, #474747, #313131);
+	float: right;
+	position: static;
+	
+}
+#lisaanappula {
+	background-color:#44c767;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	width: 65px;
+	height: 65px;
+	text-shadow:0px 1px 0px #2f6627;
+}
